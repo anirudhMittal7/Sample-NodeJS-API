@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample API</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <center><h3> A simple node.JS API with MongoDB for GET/POST calls </h3></center>
+	<form id="form">
+  		<div class="form-group">
+    		<center><input type="text" style="width:40vw;margin-top:2vh;"  id="hid_input" width="40" placeholder="Enter hid" required /></center>
+  		</div>
+  		<div class="form-group">
+    		<center><input type="text" style="width:40vw;margin-top:2vh;" id="chunk_input" placeholder="Enter chunk" required></center>
+  		</div>
+  		<div class="form-group">
+    		<center><input type="text" style="width:40vw;margin-top:2vh;" id="has_space_input"placeholder="Enter has-space value" required></center>
+  		</div>
+  		<center>
+  		<label for="select_action">Select HTTP Verb</label>
+  		<select id="select_action" style="width:10vw;margin-top:2vh;margin-left:1vw;" value = "action">
+      		<option id='POST' value='POST'>POST</option>
+      		<option id='GET' value='GET'>GET</option>
+    	</select>
+    	</center>
+  		<center><button style="margin-top:2vh;" type="submit" class="btn btn-primary">Submit</button></center>
+	</form>
+
+	<div style="margin: 1vh">
+		<h5 id="info"></h5>
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

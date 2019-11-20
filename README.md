@@ -1,2 +1,2 @@
-# Sample-NodeJS-API
-A sample node.JS api with MongoDB for GET and POST calls
+# Simple-NodeJS-API
+A simple nodeJS Api with MongoDB for Get and Post calls
