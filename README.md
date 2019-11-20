@@ -8,7 +8,7 @@ A simple nodeJS Api with MongoDB for Get and Post calls
 - Install [Node.js](https://nodejs.org/) if you haven't
 - Clone the repository locally
 ```
-git clone https://github.com/anirudhMittal7/Supplyframe-Hackaday-Sample.git
+git clone https://github.com/anirudhMittal7/Sample-NodeJS-API.git
 ```
 - Install packages
 ```
