@@ -2,6 +2,7 @@
 A simple nodeJS Api with MongoDB for Get and Post calls.
 To interact with the API
 - simply choose the HTTP action GET/POST 
+- fill in the form input fields
 - click on Submit 
 - view the response message on the screen
 
